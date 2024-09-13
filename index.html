@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puzzle Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <!-- Puzzle Clues -->
+    <div class="clues">
+      <h3>Clues</h3>
+      <ul>
+        <li>Include a red square.</li>
+        <li>Include two blue circles.</li>
+        <!-- Add more clues here -->
+      </ul>
+    </div>
+
+    <!-- Element Palette -->
+    <div class="palette">
+      <h3>Palette</h3>
+      <div class="draggable" id="red-square" draggable="true">🟥</div>
+      <div class="draggable" id="blue-circle" draggable="true">🔵</div>
+      <!-- Add more elements here -->
+    </div>
+
+    <!-- Sandbox -->
+    <div class="sandbox">
+      <h3>Sandbox</h3>
+      <div id="drop-area" class="drop-area">
+        <!-- Users will drop items here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

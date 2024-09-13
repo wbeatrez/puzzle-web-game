@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .game-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .clues, .palette, .sandbox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    width: 200px;
+    height: 300px;
+    overflow-y: auto;
+  }
+  
+  .draggable {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 2rem;
+    cursor: grab;
+  }
+  
+  .drop-area {
+    width: 100%;
+    height: 200px;
+    border: 2px dashed #ccc;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
